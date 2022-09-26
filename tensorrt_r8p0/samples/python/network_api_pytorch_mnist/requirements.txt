@@ -1,0 +1,7 @@
+numpy
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu; platform_machine=="x86_64" and sys.platform=="linux"
+torchvision==0.9.1; platform_machine=="x86_64" and sys.platform=="linux"
+Pillow>=8.1.2
+pycuda<2021.1
+requests
